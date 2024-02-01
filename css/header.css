@@ -1,0 +1,22 @@
+
+header{
+    background: var(--color1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    min-height: 200px;
+}
+
+.box-img-header{
+    height: 100%;
+}
+
+
+.img-logo{
+    height: 100%;
+    max-height: 60px;
+}
+

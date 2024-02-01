@@ -1,0 +1,136 @@
+
+section{
+    padding: 4rem;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    min-height: 650px;
+    flex-wrap: wrap;
+}
+
+.first-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
+}
+
+h1{
+    font-size: 4rem;
+    letter-spacing: 8px;
+    color: var(--color5);
+}
+
+strong{
+    color: var(--color5);
+}
+
+.first-section p{
+    color: var(--color4);
+}
+
+.first-section button{
+    width: 200px;
+}
+
+.box-img-main{
+    max-width: 450px;
+    padding: 1rem;
+}
+
+.img-profile{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.second-section {
+    background: var(--color3);
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    height: 300px;
+}
+
+.title{
+    color: var(--color5);
+}
+
+.second-section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.second-section p{
+    color: var(--color5);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.second-section p:hover{
+    color: var(--color4);
+    transition: .4s;
+    cursor: default;
+}
+
+.third-section{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.third-section > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.third-section > div img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.third-section > div p{
+    max-width: 600px;
+    color: var(--color4);
+}
+
+.fourth-section {
+    background: var(--color4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#my-projects-list{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#my-projects-list a{
+    text-decoration: none;
+    color: var(--color5);
+}
+
+#my-projects-list a:hover{
+    transition: .4s;
+    color: var(--color4);
+}
+
+:is(.img-profile,.img-who-am-i){
+    box-shadow: 1px 1px 1px 1px var(--cyan1);
+}
